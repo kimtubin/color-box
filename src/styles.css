@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+.App .ColorBox-container {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  grid-template-rows: repeat(5, 100px);
+  grid-gap: 10px;
+}
+
+.ColorBox {
+  border-radius: 20px;
+}
